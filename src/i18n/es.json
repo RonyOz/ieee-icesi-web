@@ -1,0 +1,108 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "members": "Miembros",
+    "gallery": "Galería",
+    "events": "Eventos"
+  },
+  "home": {
+    "title": "Bienvenidos a IEEE ICESI",
+    "subtitle": "Avanzando la Tecnología para la Humanidad",
+    "description": "Únete a nuestra misión de fomentar la innovación tecnológica y la excelencia para el beneficio de la humanidad.",
+    "cta": {
+      "join": "Únete a IEEE",
+      "learn": "Conoce Más"
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "description": "La Rama Estudiantil IEEE es una comunidad de futuros ingenieros y entusiastas de la tecnología dedicados al crecimiento profesional y al avance tecnológico.",
+    "mission": "Nuestra Misión",
+    "missionText": "Estar a la vanguardia de la innovación tecnológica y proporcionar oportunidades para que los estudiantes desarrollen sus habilidades profesionales y técnicas.",
+    "vision": "Nuestra Visión",
+    "visionText": "Ser reconocidos como una rama estudiantil IEEE líder, fomentando la innovación y el desarrollo profesional en tecnología e ingeniería.",
+    "values": "Nuestros Valores",
+    "collaboration": "Colaboración",
+    "collaborationText": "Trabajando juntos para lograr mayores avances e innovaciones tecnológicas.",
+    "excellence": "Excelencia",
+    "excellenceText": "Buscando los más altos estándares en todo lo que hacemos."
+  },
+  "members": {
+    "title": "Nuestros Miembros",
+    "description": "Conoce a nuestro dedicado equipo de estudiantes y asesores facultativos trabajando juntos para avanzar en tecnología y conocimiento.",
+    "boardTitle": "Junta Directiva",
+    "committeesTitle": "Comités",
+    "committeesDescription": "Grupos especializados trabajando en diferentes aspectos de nuestra organización",
+    "roles": {
+      "chair": "Presidente de Rama",
+      "viceChair": "Vicepresidente",
+      "secretary": "Secretario",
+      "treasurer": "Tesorero"
+    },
+    "committees": {
+      "technical": {
+        "name": "Comité Técnico",
+        "description": "Responsable de organizar talleres, charlas técnicas y proyectos prácticos",
+        "coordinator": "Coordinador Técnico",
+        "member": "Miembro del Comité"
+      },
+      "events": {
+        "name": "Comité de Eventos",
+        "description": "Planifica y ejecuta eventos sociales, sesiones de networking y alcance comunitario",
+        "coordinator": "Coordinador de Eventos",
+        "member": "Miembro del Comité"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galería de Fotos",
+    "description": "Explora nuestras actividades y eventos a través de nuestra colección de fotos.",
+    "images": {
+      "workshop": {
+        "title": "Taller Tecnológico 2024",
+        "description": "Estudiantes aprendiendo sobre robótica"
+      },
+      "conference": {
+        "title": "Conferencia Anual",
+        "description": "Miembros de IEEE presentando sus proyectos"
+      },
+      "hackathon": {
+        "title": "Hackathon 2024",
+        "description": "Equipos colaborando en soluciones innovadoras"
+      },
+      "industry": {
+        "title": "Visita a la Industria",
+        "description": "Aprendiendo de profesionales en el campo"
+      },
+      "team": {
+        "title": "Construcción de Equipo",
+        "description": "Construyendo conexiones más fuertes"
+      },
+      "showcase": {
+        "title": "Muestra de Proyectos",
+        "description": "Exhibiendo innovaciones estudiantiles"
+      }
+    }
+  },
+  "events": {
+    "title": "Próximos Eventos",
+    "description": "Mantente actualizado con nuestros últimos eventos y actividades.",
+    "register": "Registrarse",
+    "workshop": {
+      "title": "Taller Técnico: IA y Aprendizaje Automático",
+      "location": "Edificio de Ingeniería, Sala 305",
+      "description": "Aprende sobre los últimos desarrollos en IA y Aprendizaje Automático con ejercicios prácticos."
+    },
+    "conference": {
+      "title": "Conferencia de Liderazgo Estudiantil IEEE",
+      "location": "Centro de Conferencias Universitario",
+      "description": "Conferencia anual de liderazgo con ponentes principales y oportunidades de networking."
+    },
+    "competition": {
+      "title": "Competencia de Robótica",
+      "location": "Laboratorio de Innovación",
+      "description": "Muestra tus proyectos de robótica y compite con otros equipos."
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "members": "Members",
+    "gallery": "Gallery",
+    "events": "Events"
+  },
+  "home": {
+    "title": "Welcome to IEEE Student Icesi",
+    "subtitle": "Advancing Technology for Humanity",
+    "description": "Join us in our mission to foster technological innovation and excellence for the benefit of humanity.",
+    "cta": {
+      "join": "Join IEEE",
+      "learn": "Learn More"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "The IEEE Student Branch is a community of future engineers and technology enthusiasts dedicated to professional growth and technological advancement.",
+    "mission": "Our Mission",
+    "missionText": "To be at the forefront of technological innovation and provide opportunities for students to develop their professional and technical abilities.",
+    "vision": "Our Vision",
+    "visionText": "To be recognized as a leading IEEE Student Branch, fostering innovation and professional development in technology and engineering.",
+    "values": "Our Values",
+    "collaboration": "Collaboration",
+    "collaborationText": "Working together to achieve greater technological advancements and innovations.",
+    "excellence": "Excellence",
+    "excellenceText": "Striving for the highest standards in everything we do."
+  },
+  "members": {
+    "title": "Our Members",
+    "description": "Meet our dedicated team of students and faculty advisors working together to advance technology and knowledge.",
+    "boardTitle": "Board of Directors",
+    "committeesTitle": "Committees",
+    "committeesDescription": "Specialized groups working on different aspects of our organization",
+    "roles": {
+      "chair": "Branch Chair",
+      "viceChair": "Vice Chair",
+      "secretary": "Secretary",
+      "treasurer": "Treasurer"
+    },
+    "committees": {
+      "technical": {
+        "name": "Technical Committee",
+        "description": "Responsible for organizing workshops, technical talks, and hands-on projects",
+        "coordinator": "Technical Coordinator",
+        "member": "Committee Member"
+      },
+      "events": {
+        "name": "Events Committee",
+        "description": "Plans and executes social events, networking sessions, and community outreach",
+        "coordinator": "Events Coordinator",
+        "member": "Committee Member"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "description": "Explore our activities and events through our photo collection.",
+    "images": {
+      "workshop": {
+        "title": "Tech Workshop 2024",
+        "description": "Students learning about robotics"
+      },
+      "conference": {
+        "title": "Annual Conference",
+        "description": "IEEE members presenting their projects"
+      },
+      "hackathon": {
+        "title": "Hackathon 2024",
+        "description": "Teams collaborating on innovative solutions"
+      },
+      "industry": {
+        "title": "Industry Visit",
+        "description": "Learning from professionals in the field"
+      },
+      "team": {
+        "title": "Team Building",
+        "description": "Building stronger connections"
+      },
+      "showcase": {
+        "title": "Project Showcase",
+        "description": "Displaying student innovations"
+      }
+    }
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "description": "Stay updated with our latest events and activities.",
+    "register": "Register",
+    "workshop": {
+      "title": "Technical Workshop: AI and Machine Learning",
+      "location": "Engineering Building, Room 305",
+      "description": "Learn about the latest developments in AI and Machine Learning with hands-on exercises."
+    },
+    "conference": {
+      "title": "IEEE Student Leadership Conference",
+      "location": "University Conference Center",
+      "description": "Annual leadership conference featuring keynote speakers and networking opportunities."
+    },
+    "competition": {
+      "title": "Robotics Competition",
+      "location": "Innovation Lab",
+      "description": "Showcase your robotics projects and compete with other teams."
+    }
+  }
+}
