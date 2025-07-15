@@ -50,46 +50,97 @@ const Members = () => {
 
   const committees = [
     {
-      name: t('members.committees.technical.name'),
-      description: t('members.committees.technical.description'),
+      name: t('members.committees.innovation.name'),
+      description: t('members.committees.innovation.description'),
       icon: Briefcase,
       members: [
         {
           name: 'Alex Thompson',
-          role: t('members.committees.technical.coordinator'),
+          role: t('members.committees.innovation.coordinator'),
           image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=300',
           social: { email: 'alex@ieee.org', linkedin: '#', github: '#' }
         },
         {
           name: 'Maria Garcia',
-          role: t('members.committees.technical.member'),
+          role: t('members.committees.innovation.member'),
           image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300',
           social: { email: 'maria@ieee.org', linkedin: '#', github: '#' }
-        },
-        {
-          name: 'James Wilson',
-          role: t('members.committees.technical.member'),
-          image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'james@ieee.org', linkedin: '#', github: '#' }
         }
       ]
     },
     {
-      name: t('members.committees.events.name'),
-      description: t('members.committees.events.description'),
+      name: t('members.committees.external.name'),
+      description: t('members.committees.external.description'),
       icon: Users,
       members: [
         {
-          name: 'Lisa Chang',
-          role: t('members.committees.events.coordinator'),
-          image: 'https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'lisa@ieee.org', linkedin: '#', github: '#' }
+          name: 'James Wilson',
+          role: t('members.committees.external.coordinator'),
+          image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
+          social: { email: 'james@ieee.org', linkedin: '#', github: '#' }
         },
         {
+          name: 'Lisa Chang',
+          role: t('members.committees.external.member'),
+          image: 'https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300',
+          social: { email: 'lisa@ieee.org', linkedin: '#', github: '#' }
+        }
+      ]
+    },
+    {
+      name: t('members.committees.finance.name'),
+      description: t('members.committees.finance.description'),
+      icon: Users,
+      members: [
+        {
           name: 'Carlos Mendez',
-          role: t('members.committees.events.member'),
+          role: t('members.committees.finance.coordinator'),
           image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=300',
           social: { email: 'carlos@ieee.org', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Emily Rodriguez',
+          role: t('members.committees.finance.member'),
+          image: 'https://images.pexels.com/photos/3776932/pexels-photo-3776932.jpeg?auto=compress&cs=tinysrgb&w=300',
+          social: { email: 'emily@ieee.org', linkedin: '#', github: '#' }
+        }
+      ]
+    },
+    {
+      name: t('members.committees.wellness.name'),
+      description: t('members.committees.wellness.description'),
+      icon: Users,
+      members: [
+        {
+          name: 'David Kim',
+          role: t('members.committees.wellness.coordinator'),
+          image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300',
+          social: { email: 'david@ieee.org', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Sarah Johnson',
+          role: t('members.committees.wellness.member'),
+          image: 'https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=300',
+          social: { email: 'sarah@ieee.org', linkedin: '#', github: '#' }
+        }
+      ]
+    },
+    {
+      name: t('members.committees.public.name'),
+      description: t('members.committees.public.description'),
+      icon: Users,
+      members: [
+        {
+          name: 'Michael Chen',
+          role: t('members.committees.public.coordinator'),
+          image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',
+          social: { email: 'michael@ieee.org', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Maria Garcia',
+          role: t('members.committees.public.member'),
+          image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300',
+          social: { email: 'maria@ieee.org', linkedin: '#', github: '#' }
         }
       ]
     }

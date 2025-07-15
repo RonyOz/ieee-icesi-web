@@ -41,16 +41,34 @@
       "treasurer": "Tesorero"
     },
     "committees": {
-      "technical": {
-        "name": "Comité Técnico",
-        "description": "Responsable de organizar talleres, charlas técnicas y proyectos prácticos",
-        "coordinator": "Coordinador Técnico",
+      "innovation": {
+        "name": "Comité de Innovación y Proyectos",
+        "description": "Encargado de impulsar la creatividad, desarrollar proyectos tecnológicos y organizar talleres técnicos.",
+        "coordinator": "Líder de Comité",
         "member": "Miembro del Comité"
       },
-      "events": {
-        "name": "Comité de Eventos",
-        "description": "Planifica y ejecuta eventos sociales, sesiones de networking y alcance comunitario",
-        "coordinator": "Coordinador de Eventos",
+      "external": {
+        "name": "Comité de Relaciones Externas",
+        "description": "Gestiona alianzas, colaboraciones y la comunicación con entidades externas a la universidad.",
+        "coordinator": "Líder de Comité",
+        "member": "Miembro del Comité"
+      },
+      "finance": {
+        "name": "Comité de Finanzas y Patrocinios",
+        "description": "Administra los recursos financieros, busca patrocinadores y apoya la sostenibilidad económica de la rama.",
+        "coordinator": "Líder de Comité",
+        "member": "Miembro del Comité"
+      },
+      "wellness": {
+        "name": "Comité de Gestión Humana, Cultura y Bienestar",
+        "description": "Promueve el bienestar, la integración y el desarrollo personal de los miembros mediante actividades culturales y de convivencia.",
+        "coordinator": "Líder de Comité",
+        "member": "Miembro del Comité"
+      },
+      "public": {
+        "name": "Comité de Relaciones Públicas",
+        "description": "Encargado de la comunicación, difusión de eventos y manejo de redes sociales para fortalecer la imagen de la rama.",
+        "coordinator": "Líder de Comité",
         "member": "Miembro del Comité"
       }
     }

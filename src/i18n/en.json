@@ -41,17 +41,35 @@
       "treasurer": "Treasurer"
     },
     "committees": {
-      "technical": {
-        "name": "Technical Committee",
-        "description": "Responsible for organizing workshops, technical talks, and hands-on projects",
-        "coordinator": "Technical Coordinator",
-        "member": "Committee Member"
+      "innovation": {
+      "name": "Innovation and Projects Committee",
+      "description": "Responsible for fostering creativity, developing technological projects, and organizing technical workshops.",
+      "coordinator": "Committee Leader",
+      "member": "Committee Member"
       },
-      "events": {
-        "name": "Events Committee",
-        "description": "Plans and executes social events, networking sessions, and community outreach",
-        "coordinator": "Events Coordinator",
-        "member": "Committee Member"
+      "external": {
+      "name": "External Relations Committee",
+      "description": "Manages partnerships, collaborations, and communication with entities outside the university.",
+      "coordinator": "Committee Leader",
+      "member": "Committee Member"
+      },
+      "finance": {
+      "name": "Finance and Sponsorships Committee",
+      "description": "Manages financial resources, seeks sponsors, and supports the branch's economic sustainability.",
+      "coordinator": "Committee Leader",
+      "member": "Committee Member"
+      },
+      "wellness": {
+      "name": "Human Management, Culture, and Wellness Committee",
+      "description": "Promotes well-being, integration, and personal development of members through cultural and social activities.",
+      "coordinator": "Committee Leader",
+      "member": "Committee Member"
+      },
+      "public": {
+      "name": "Public Relations Committee",
+      "description": "Responsible for communication, event promotion, and social media management to strengthen the branch's image.",
+      "coordinator": "Committee Leader",
+      "member": "Committee Member"
       }
     }
   },
