@@ -13,6 +13,24 @@
     "cta": {
       "join": "Únete a IEEE",
       "learn": "Conoce Más"
+    },
+    "features": {
+      "technical": {
+        "title": "Proyectos Técnicos",
+        "desc": "Experiencia práctica con tecnología de punta"
+      },
+      "community": {
+        "title": "Comunidad Estudiantil",
+        "desc": "Únete a una comunidad vibrante de futuros ingenieros"
+      },
+      "global": {
+        "title": "Red Global",
+        "desc": "Conecta con ramas IEEE en todo el mundo"
+      }
+    },
+    "news": "Últimas Noticias",
+    "social": {
+      "title": "Conéctate con Nosotros"
     }
   },
   "about": {

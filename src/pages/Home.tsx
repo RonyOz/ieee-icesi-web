@@ -1,14 +1,13 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { CircuitBoard, Cpu, Globe, Users, Calendar, Award, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { CircuitBoard, Globe, Users, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const Home = () => {
   const { t } = useTranslation();
 
   const features = [
-    { icon: CircuitBoard, title: "Technical Projects", desc: "Hands-on experience with cutting-edge technology" },
-    { icon: Users, title: "Student Community", desc: "Join a vibrant community of future engineers" },
-    { icon: Globe, title: "Global Network", desc: "Connect with IEEE branches worldwide" }
+    { icon: CircuitBoard, title: t('home.features.technical.title'), desc: t('home.features.technical.desc') },
+    { icon: Users, title: t('home.features.community.title'), desc: t('home.features.community.desc') },
+    { icon: Globe, title: t('home.features.global.title'), desc: t('home.features.global.desc') }
   ];
 
   const news = [
@@ -66,7 +65,7 @@ const Home = () => {
 
         {/* Latest News Section */}
         <div className="mt-32">
-          <h2 className="text-5xl font-bold gradient-text text-center mb-16">Latest News</h2>
+          <h2 className="text-5xl font-bold gradient-text text-center mb-16">{t('home.news')}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {news.map((item, i) => (
               <div key={i} className="glass-card overflow-hidden card-hover group">
@@ -89,9 +88,9 @@ const Home = () => {
 
         {/* Social Media Section */}
         <div className="mt-32 text-center">
-          <h2 className="text-5xl font-bold gradient-text mb-12">Connect With Us</h2>
+          <h2 className="text-5xl font-bold gradient-text mb-12">{t('home.social.title')}</h2>
           <div className="flex justify-center space-x-8">
-            {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
+            {[Linkedin, Instagram].map((Icon, i) => (
               <a key={i} href="#" className="p-4 glass-card rounded-full text-gray-600 dark:text-white transition-all duration-300 hover:scale-110 hover:text-ieee-primary">
                 <Icon className="h-8 w-8" />
               </a>

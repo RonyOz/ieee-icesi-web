@@ -13,6 +13,24 @@
     "cta": {
       "join": "Join IEEE",
       "learn": "Learn More"
+    },
+    "features": {
+      "technical": {
+        "title": "Technical Projects",
+        "desc": "Hands-on experience with cutting-edge technology"
+      },
+      "community": {
+        "title": "Student Community",
+        "desc": "Join a vibrant community of future engineers"
+      },
+      "global": {
+        "title": "Global Network",
+        "desc": "Connect with IEEE branches worldwide"
+      }
+    },
+    "news": "Latest News",
+    "social": {
+      "title": "Connect With Us"
     }
   },
   "about": {
