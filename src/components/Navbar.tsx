@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { CircuitBoard, Menu, X, Sun, Moon } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 const Navbar = () => {
@@ -22,7 +22,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3 group">
-              
+              <img
+                src="/IEEE ICESI LOGO.svg"
+                alt="IEEE ICESI Logo"
+                className="h-8 w-8 transition-transform group-hover:scale-105"
+              />
               <span className="font-bold text-xl text-gray-900 dark:text-white">IEEE ICESI</span>
             </Link>
           </div>
