@@ -72,6 +72,12 @@
         "coordinator": "Líder de Comité",
         "member": "Miembro del Comité"
       }
+    },
+    "affinity": {
+      "title": "Grupos de Afinidad y Capítulos",
+      "description": "Conoce los otros grupos de afinidad y capítulos IEEE aliados en la universidad.",
+      "president": "Presidente",
+      "link": "Ver más"
     }
   },
   "gallery": {

@@ -72,6 +72,12 @@
       "coordinator": "Committee Leader",
       "member": "Committee Member"
       }
+    },
+    "affinity": {
+      "title": "Affinity Groups and Chapters",
+      "description": "Meet the other IEEE affinity groups and chapters allied at the university.",
+      "president": "President",
+      "link": "See More"
     }
   },
   "gallery": {
