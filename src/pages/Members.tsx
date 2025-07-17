@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mail, Linkedin, Github, Crown, Users, Briefcase } from 'lucide-react';
 
@@ -7,41 +6,51 @@ const Members = () => {
 
   const boardMembers = [
     {
-      name: 'Sarah Johnson',
+      name: 'Sebastián Díaz',
       role: t('members.roles.chair'),
-      image: 'https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
       social: {
-        email: 'sarah@ieee.org',
+        email: '',
         linkedin: '#',
         github: '#'
       }
     },
     {
-      name: 'Michael Chen',
+      name: 'Geoffrey Pasaje',
       role: t('members.roles.viceChair'),
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
       social: {
-        email: 'michael@ieee.org',
+        email: '',
         linkedin: '#',
         github: '#'
       }
     },
     {
-      name: 'Emily Rodriguez',
+      name: 'Vanessa Sánchez',
       role: t('members.roles.secretary'),
-      image: 'https://images.pexels.com/photos/3776932/pexels-photo-3776932.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
       social: {
-        email: 'emily@ieee.org',
+        email: '',
         linkedin: '#',
         github: '#'
       }
     },
     {
-      name: 'David Kim',
+      name: 'Sara Díaz',
       role: t('members.roles.treasurer'),
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
       social: {
-        email: 'david@ieee.org',
+        email: '',
+        linkedin: '#',
+        github: '#'
+      }
+    },
+    {
+      name: 'Rony Ordoñez',
+      role: t('members.roles.webmaster'),
+      image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+      social: {
+        email: '',
         linkedin: '#',
         github: '#'
       }
@@ -57,14 +66,14 @@ const Members = () => {
         {
           name: 'Alex Thompson',
           role: t('members.committees.innovation.coordinator'),
-          image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'alex@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         },
         {
           name: 'Maria Garcia',
           role: t('members.committees.innovation.member'),
-          image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'maria@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         }
       ]
     },
@@ -76,14 +85,14 @@ const Members = () => {
         {
           name: 'James Wilson',
           role: t('members.committees.external.coordinator'),
-          image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'james@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         },
         {
           name: 'Lisa Chang',
           role: t('members.committees.external.member'),
-          image: 'https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'lisa@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         }
       ]
     },
@@ -95,14 +104,14 @@ const Members = () => {
         {
           name: 'Carlos Mendez',
           role: t('members.committees.finance.coordinator'),
-          image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'carlos@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         },
         {
           name: 'Emily Rodriguez',
           role: t('members.committees.finance.member'),
-          image: 'https://images.pexels.com/photos/3776932/pexels-photo-3776932.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'emily@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         }
       ]
     },
@@ -114,14 +123,14 @@ const Members = () => {
         {
           name: 'David Kim',
           role: t('members.committees.wellness.coordinator'),
-          image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'david@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         },
         {
           name: 'Sarah Johnson',
           role: t('members.committees.wellness.member'),
-          image: 'https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'sarah@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         }
       ]
     },
@@ -133,14 +142,14 @@ const Members = () => {
         {
           name: 'Michael Chen',
           role: t('members.committees.public.coordinator'),
-          image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'michael@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         },
         {
           name: 'Maria Garcia',
           role: t('members.committees.public.member'),
-          image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300',
-          social: { email: 'maria@ieee.org', linkedin: '#', github: '#' }
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
         }
       ]
     }
@@ -172,7 +181,7 @@ const Members = () => {
                   <img 
                     src={member.image} 
                     alt={member.name}
-                    className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>

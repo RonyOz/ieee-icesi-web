@@ -35,10 +35,11 @@
     "committeesTitle": "Comités",
     "committeesDescription": "Grupos especializados trabajando en diferentes aspectos de nuestra organización",
     "roles": {
-      "chair": "Presidente de Rama",
+      "chair": "Presidente",
       "viceChair": "Vicepresidente",
       "secretary": "Secretario",
-      "treasurer": "Tesorero"
+      "treasurer": "Tesorero",
+      "webmaster": "Web Master"
     },
     "committees": {
       "innovation": {

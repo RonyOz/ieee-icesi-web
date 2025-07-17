@@ -38,7 +38,8 @@
       "chair": "Branch Chair",
       "viceChair": "Vice Chair",
       "secretary": "Secretary",
-      "treasurer": "Treasurer"
+      "treasurer": "Treasurer",
+      "webmaster": "Web Master"
     },
     "committees": {
       "innovation": {
