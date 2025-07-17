@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { Mail, Linkedin, Github, Crown, Users, Briefcase } from 'lucide-react';
+import { Crown, Rocket, Handshake, PiggyBank, Smile, MessageSquare } from 'lucide-react';
+import MemberCard from '../components/MemberCard';
 
 const Members = () => {
   const { t } = useTranslation();
@@ -61,16 +62,40 @@ const Members = () => {
     {
       name: t('members.committees.innovation.name'),
       description: t('members.committees.innovation.description'),
-      icon: Briefcase,
+      icon: Rocket,
       members: [
         {
-          name: 'Alex Thompson',
+          name: 'Leader',
           role: t('members.committees.innovation.coordinator'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         },
         {
-          name: 'Maria Garcia',
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
           role: t('members.committees.innovation.member'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
@@ -80,17 +105,41 @@ const Members = () => {
     {
       name: t('members.committees.external.name'),
       description: t('members.committees.external.description'),
-      icon: Users,
+      icon: Handshake,
       members: [
         {
-          name: 'James Wilson',
-          role: t('members.committees.external.coordinator'),
+          name: 'Leader',
+          role: t('members.committees.innovation.coordinator'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         },
         {
-          name: 'Lisa Chang',
-          role: t('members.committees.external.member'),
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         }
@@ -99,17 +148,41 @@ const Members = () => {
     {
       name: t('members.committees.finance.name'),
       description: t('members.committees.finance.description'),
-      icon: Users,
+      icon: PiggyBank,
       members: [
         {
-          name: 'Carlos Mendez',
-          role: t('members.committees.finance.coordinator'),
+          name: 'Leader',
+          role: t('members.committees.innovation.coordinator'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         },
         {
-          name: 'Emily Rodriguez',
-          role: t('members.committees.finance.member'),
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         }
@@ -118,17 +191,41 @@ const Members = () => {
     {
       name: t('members.committees.wellness.name'),
       description: t('members.committees.wellness.description'),
-      icon: Users,
+      icon: Smile,
       members: [
         {
-          name: 'David Kim',
-          role: t('members.committees.wellness.coordinator'),
+          name: 'Leader',
+          role: t('members.committees.innovation.coordinator'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         },
         {
-          name: 'Sarah Johnson',
-          role: t('members.committees.wellness.member'),
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         }
@@ -137,22 +234,62 @@ const Members = () => {
     {
       name: t('members.committees.public.name'),
       description: t('members.committees.public.description'),
-      icon: Users,
+      icon: MessageSquare,
       members: [
         {
-          name: 'Michael Chen',
-          role: t('members.committees.public.coordinator'),
+          name: 'Leader',
+          role: t('members.committees.innovation.coordinator'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         },
         {
-          name: 'Maria Garcia',
-          role: t('members.committees.public.member'),
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
+          image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
+          social: { email: '', linkedin: '#', github: '#' }
+        },
+        {
+          name: 'Member',
+          role: t('members.committees.innovation.member'),
           image: 'https://i.pinimg.com/736x/25/29/dc/2529dcdd5072ff35660c40a32df0cc8f.jpg',
           social: { email: '', linkedin: '#', github: '#' }
         }
       ]
     }
+  ];
+
+  // Datos de grupos de afinidad y capítulos
+  const affinityGroups = [
+    {
+      name: 'WIE - Women in Engineering',
+      president: 'Ana María Pérez',
+      link: 'https://wie.ieee.org/',
+      image: 'https://wie.ieee.org/wp-content/uploads/2022/01/wie-logo.png',
+    },
+    {
+      name: 'CS - Computer Society',
+      president: 'Carlos Gómez',
+      link: 'https://www.computer.org/',
+      image: 'https://www.computer.org/cms/Images/ieee-cs-logo.svg',
+    },
   ];
 
   return (
@@ -236,6 +373,24 @@ const Members = () => {
             ))}
           </div>
         </div>
+
+        <div className="mt-24">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold gradient-text mb-4">{t('members.affinity.title')}</h2>
+            <p className="text-xl text-slate-600 dark:text-slate-400">{t('members.affinity.description')}</p>
+          </div>
+          <div className="flex flex-col md:flex-row justify-center gap-8">
+            {affinityGroups.map((group, idx) => (
+              <div key={idx} className="glass-card flex flex-col items-center p-8 w-full md:w-96">
+                <img src={group.image} alt={group.name} className="h-20 mb-4 object-contain" />
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">{group.name}</h3>
+                <p className="mb-2 text-slate-700 dark:text-slate-300">{t('members.affinity.president')}: <span className="font-semibold">{group.president}</span></p>
+                <a href={group.link} target="_blank" rel="noopener noreferrer" className="text-ieee-primary dark:text-blue-400 font-medium underline hover:text-blue-700">{t('members.affinity.link')}</a>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );
