@@ -173,44 +173,30 @@ const Members = () => {
               <h2 className="text-4xl font-bold gradient-text">{t('members.boardTitle')}</h2>
             </div>
           </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {boardMembers.map((member, index) => (
-              <div key={index} className="glass-card overflow-hidden card-hover group">
-                <div className="relative">
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2 text-slate-900 dark:text-white">{member.name}</h3>
-                  <p className="text-ieee-primary dark:text-blue-400 font-medium mb-4">{member.role}</p>
-                  <div className="flex space-x-3">
-                    <a 
-                      href={`mailto:${member.social.email}`} 
-                      className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-ieee-primary dark:hover:text-blue-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-200"
-                    >
-                      <Mail className="h-4 w-4" />
-                    </a>
-                    <a 
-                      href={member.social.linkedin} 
-                      className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-ieee-primary dark:hover:text-blue-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-200"
-                    >
-                      <Linkedin className="h-4 w-4" />
-                    </a>
-                    <a 
-                      href={member.social.github} 
-                      className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-ieee-primary dark:hover:text-blue-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-200"
-                    >
-                      <Github className="h-4 w-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            ))}
+
+          <div className="flex flex-col justify-center gap-8">
+            <div className="flex flex-col md:flex-row justify-center gap-8">
+              {boardMembers.slice(0, 2).map((member, index) => (
+                <MemberCard
+                  key={index}
+                  name={member.name}
+                  role={member.role}
+                  image={member.image}
+                  social={member.social}
+                />
+              ))}
+            </div>
+            <div className="flex flex-col md:flex-row lg:flex-row justify-center gap-8">
+              {boardMembers.slice(2).map((member, index) => (
+                <MemberCard
+                  key={index + 2}
+                  name={member.name}
+                  role={member.role}
+                  image={member.image}
+                  social={member.social}
+                />
+              ))}
+            </div>
           </div>
         </div>
 
@@ -236,39 +222,14 @@ const Members = () => {
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {committee.members.map((member, memberIndex) => (
-                    <div key={memberIndex} className="bg-white/50 dark:bg-slate-800/50 rounded-xl p-6 backdrop-blur-sm border border-slate-200/50 dark:border-slate-700/50 hover:bg-white/70 dark:hover:bg-slate-800/70 transition-all duration-200">
-                      <div className="flex items-center space-x-4">
-                        <img 
-                          src={member.image} 
-                          alt={member.name}
-                          className="w-16 h-16 rounded-full object-cover border-2 border-slate-200 dark:border-slate-700"
-                        />
-                        <div className="flex-1">
-                          <h4 className="text-lg font-semibold text-slate-900 dark:text-white">{member.name}</h4>
-                          <p className="text-ieee-primary dark:text-blue-400 text-sm font-medium">{member.role}</p>
-                          <div className="flex space-x-2 mt-2">
-                            <a 
-                              href={`mailto:${member.social.email}`} 
-                              className="p-1 rounded text-slate-500 dark:text-slate-400 hover:text-ieee-primary dark:hover:text-blue-400 transition-colors duration-200"
-                            >
-                              <Mail className="h-3 w-3" />
-                            </a>
-                            <a 
-                              href={member.social.linkedin} 
-                              className="p-1 rounded text-slate-500 dark:text-slate-400 hover:text-ieee-primary dark:hover:text-blue-400 transition-colors duration-200"
-                            >
-                              <Linkedin className="h-3 w-3" />
-                            </a>
-                            <a 
-                              href={member.social.github} 
-                              className="p-1 rounded text-slate-500 dark:text-slate-400 hover:text-ieee-primary dark:hover:text-blue-400 transition-colors duration-200"
-                            >
-                              <Github className="h-3 w-3" />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <MemberCard
+                      key={memberIndex}
+                      name={member.name}
+                      role={member.role}
+                      image={member.image}
+                      social={member.social}
+                      variant="committee"
+                    />
                   ))}
                 </div>
               </div>
