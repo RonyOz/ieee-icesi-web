@@ -1,6 +1,6 @@
 # IEEE ICESI Web
 
-Este proyecto es el sitio web oficial del capítulo IEEE de la Universidad ICESI. Su objetivo es proporcionar información relevante sobre eventos, membresías, recursos y noticias relacionadas con IEEE en ICESI.
+Este proyecto es el sitio web oficial de la rama IEEE de la Universidad ICESI en desarrollo por su Web Master. Su objetivo es proporcionar información relevante sobre eventos, membresías, recursos y noticias relacionadas con IEEE en ICESI.
 
 ## Características
 
@@ -9,13 +9,6 @@ Este proyecto es el sitio web oficial del capítulo IEEE de la Universidad ICESI
 - Información sobre membresías y cómo unirse.
 - Recursos para miembros y visitantes.
 - Noticias y actualizaciones del capítulo.
-
-## Tecnologías utilizadas
-
-- HTML5, CSS3 y JavaScript
-- Frameworks/librerías: (agrega aquí si usas React, Vue, Angular, etc.)
-- Backend: (agrega aquí si usas Node.js, Django, etc.)
-- Otros: (agrega bases de datos, herramientas de despliegue, etc.)
 
 ## Instalación
 
@@ -54,7 +47,3 @@ Este proyecto es el sitio web oficial del capítulo IEEE de la Universidad ICESI
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-## Contacto
-
-Para dudas o sugerencias, puedes escribir a ieee@icesi.edu.co o abrir un issue en este repositorio.
